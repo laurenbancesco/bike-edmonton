@@ -348,7 +348,7 @@ p {
   background-color: rgba(255, 255, 255, 0.5); 
   padding: 17px 48px 36px 28px; 
   text-align: left;
-  width: 400px; 
+  width: auto; 
   position: absolute;
   top: 48px;
   left: 84px;
@@ -1395,7 +1395,7 @@ ul {
     padding: 0px; 
     text-align: center; 
     background-position: center; 
-    width: 95%;
+    width: 100mission%;
 
 
   }
@@ -1698,6 +1698,12 @@ ul {
 
   /* wokshop */
 
+  .hero-section-1 {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
   .content-section {
     display: flex;
     flex-direction: column;
@@ -1876,6 +1882,11 @@ ul {
     padding-left: 20px; 
   }
 
+  //mobileskrink {
+    width: 40%;
+    text-wrap: wrap;
+
+  }
 
   .volunteer-gallery h2 {
     font-size: 24px;
