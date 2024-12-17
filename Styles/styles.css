@@ -332,7 +332,7 @@ p {
 }
 
 .mission-section {
-  background-image: url(../Images/mission-biker.png);
+  background-image: url(../missionimg.png);
   background-size: cover;
   background-position: center;
   height: 550px; 
