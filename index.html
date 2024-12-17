@@ -3,25 +3,231 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="Styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="Styles/styles.css">
+
 	<title>Bike Edmonton | Home</title>
 </head>
-<body style="background-color: lightpink;">
+<body style="background-color: #F4F4F4;">
 	<header>
-		<h1>Hello Everyone</h1>
-		<p>Nice to meet you</p>
-		<p>Whats up guys</p>
+
+		<!--Desktop Nav-->
+		<nav class="nav-bar hidden-mobile">
+			<div>
+				<img src="Images/Bike edmonton logo 1.svg">
+			</div>
+
+			<div>
+				<ul>
+					<a href="index.html">Home</a>
+					<a href="about.html">About Us</a>
+					<a href="shop.html">Bikes & Repairs</a>
+					<a href="workshop.html">Programs & Events</a>
+					<a href="volunteer.html">Community & Resources</a>
+					<a href="#">Contact Us</a>
+				</ul>
+			</div>
+		</nav>
+
+
+		<!--Mobile Nav-->
+		<nav class="nav-bar hidden-desktop">
+			<div>
+				<img src="Images/Bike edmonton logo 1.svg">
+			</div>
+
+   			<div> 
+   			<!--Hamburger -->
+            <svg width="48" height="23" viewBox="0 0 48 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="48" height="2" transform="translate(0 0.634029)" fill="white"/>
+                <rect width="48" height="2" transform="translate(0 10.634)" fill="white"/>
+                <rect width="48" height="2" transform="translate(0 20.634)" fill="white"/>
+            </svg>
+        </div> 
+		</nav>
+
+
 	</header>
 
-
+<!--Hero Section-->
 	<section>
 
+	<div class="hero-section">
+
+		<div class="width50">
+			<h1>Building a Better Cycling Community in Edmonton</h1>
+		</div>
+
+			<h3>Find bikes, repair services, workshops, and more.</h3>
+
+			<button class="button1">Explore Our Services</button>
+
+	</div>
 	</section>
 
 
-	<section>
+<!--About Section-->
+	<section class="about-section">
+	
+	<!-- Blue Box Content -->
+	<div class="about-box width35">
+
+		<h2>About Bike Edmonton</h2>
+		<h3>Building a Stronger Cycling Community in Edmonton</h3>
+		<p>Bike Edmonton is a nonprofit promoting safe, accessible cycling for all. Through education, advocacy, and workshops, we help you ride confidently and maintain your bike.</p>
+		<button class="button1">Learn More</button>
+
+	</div>
+
+
+	<!-- Blog Section -->
+	<div class="blog-box">
+
+		<h3 class="black-text">Latest Blog Posts</h3>
+
+		<div class="blog-text">
+			<img class="blog-img" src="Images/hat.png" alt="Bike Edmonton Hat">
+			<div>
+			<p class="underline">Bike Edmonton Cycling Caps!</p>
+
+			<p class="gone">Don't miss your chance to show your support for Bike Edmonton and amplify your cycling style with a limited edition Bike Edmonton cycling cap.</p>
+			</div>
+		</div>
+
+		<div class="blog-text">
+			<img class="blog-img" src="Images/AGM-time.png" alt="Its AGM time!">
+			<div>
+			<p class="underline">Bike Edmonton's Annual General Meeting</p>
+
+			<p class="gone">It has been a year of transition for Bike Edmonton, and we are so grateful for the support of all our members.</p>
+		</div>
+		</div>
+
+		<div class="blog-text">
+			<img class="blog-img" src="Images/blog3.png" alt="Bike pulling a trailer">
+			<div>
+			<p class="underline">Our South Shop Is Closing</p>
+
+			<p class="gone">Our South Community Bike Workshop will be closing permanently at the end of the day on Sunday June 16th.</p>
+		</div>
+		</div>
+
+		<div>
+		<p class="underline">See All Blog Posts</p>
+		</div>
+
+	</div>
+
 
 	</section>
 
+	<section class="courses-events">
+	<!--Courses and Events Section-->
+
+	<div>
+		<h2>Courses & Events</h2>
+	</div>
+
+	<div class="cards-container">
+    <div class="card">
+      <img src="Images/Bike 101.png" alt="Man fixing bike wheel">
+      <div class="card-content">
+        <h3>Bike Repair 101: Hands-on Intro to Bike Repair</h3>
+         <a href="#" class="learn-more">Learn More</a>
+      </div>
+    </div>
+    <div class="card gone">
+      <img src="Images/fallbike.png" alt="Bike on fall trail">
+      <div class="card-content">
+        <h3>Big Fall Bike Sale</h3>
+        <a href="#" class="learn-more">Learn More</a>
+      </div>
+    </div>
+    <div class="card gone">
+      <img src="Images/bike201.png" alt="Bike parts and wrench">
+      <div class="card-content">
+        <h3>Bike Repair 201: Topics in Intermediate Bike Repair</h3>
+        <a href="#" class="learn-more">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+
+
+	</section>
+
+	<section class="resources-section">
+	<!--Resources Section-->
+
+  <h2>Resources for Cyclists</h2>
+  <div class="resources-container">
+    <div class="resource-item">
+      <img src="Images/map.png">
+      <p>Maps & Route Finder</p>
+    </div>
+    <div class="resource-item">
+      <img src="Images/bike.png">
+      <p>Stolen Bike Registry</p>
+    </div>
+    <div class="resource-item">
+      <img src="Images/laws.png">
+      <p>Cycling Laws & Safety</p>
+    </div>
+    <div class="resource-item">
+      <img src="Images/handshake.png">
+      <p>Get Involved</p>
+    </div>
+  </div>
+
+	</section>
+
+	<section>
+	<!--Mission Section-->
+	<div class="mission-section">
+
+		<div class="mission-box">
+			<h2 class="mission">Support Our Mission</h1>
+
+			<p>Help us make Edmonton a safer, more accessible city for cyclists. You can get involved by donating, becoming a member, or volunteering at our workshops and events.</p>
+
+			<button class="button1">Learn More</button>
+		</div>
+
+	</section>
+
+	<footer>
+	<!--Footer-->
+
+	<div>
+		<h4>Sign Up for Emails</h4>
+	  <input type="text" placeholder="Your email address">
+ 		<button type="submit">Submit</button>
+	</div>
+
+	<div>
+		<p>About Us</p>
+		<p>Bikes & Repairs</p>
+		<p>Programs & Events</p>
+		<p>Community & Resources</p>
+	</div>
+
+	<div>
+		<p>123 Bike Lane, Edmonton</p>
+		<p>(780) 123-4567</p>
+		<p>info@bikeedmonton.ca</p>
+		<p>Hours: Mon-Fri, 10 AM - 6 PM</p>
+	</div>
+
+
+	</footer>
 
 
 
